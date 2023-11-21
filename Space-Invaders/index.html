@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Space Invaders</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- alert -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $(function () {
+      $("#dialog").dialog();
+    });
+  </script>
+
+</head>
+<body>
+  <h1 class="results">0</h1>
+  <div class="grid"></div>
+  <script src="app.js"></script>
+  <!-- alert -->
+  <div id="dialog" title="Rule for the Game">
+    <p>The rule of the game is to shoot all the invaders before they get to you. Use the left and right key to move the shooter and up key to shoot...Refresh to play!!</p>
+  </div>
+</body>
+</html>
